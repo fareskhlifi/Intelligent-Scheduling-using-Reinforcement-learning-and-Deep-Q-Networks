@@ -25,18 +25,12 @@ In Reinforcement Learning, defining the observation and action spaces is crucial
 The heart of 'WSNEnvironment' lies in how it simulates a dynamic sensor network over time:
 - **Sensor Deployment:** The environment allows for the creation of a customizable sensor network. The number of sensors (`num_sensors`) and their spatial distribution are determined using a Poisson point distribution, ensuring a random and diverse sensor deployment.
 - **Coverage and Energy Optimization:** 'WSNEnvironment' simulates the optimization of sensor energy usage while maintaining efficient coverage of the monitored area. Sensors operate within circular coverage areas, representing regions where they can detect and capture events.
-- **Event Handling:** Events, representing data to be captured, are generated with a certain probability if it exceeds the threshold probability(`threshold_prob`). If an event is generated, its location is determined randomly within the monitored region. Sensors within the event's coverage area detect and record the event, mimicking real-world event detection and they add it to their buffers.
+- **Event Handling:** Events, representing data to be captured, are generated with a certain probability if it exceeds the threshold probability (`threshold_prob`). If an event is generated, its location is determined randomly within the monitored region. Sensors within the event's coverage area detect and record the event, mimicking real-world event detection and they add it to their buffers.
 
 ## Agent Interaction
 - **Step and Reset Functions:** The 'step' function models the agent's interaction with the environment, simulating the process of selecting sensors and capturing events over multiple time steps. The 'reset' function initializes the environment at the start of each episode.
 - **Reward Function:** The reward mechanism has been significantly enhanced from the initial version. Instead of a simple reward structure, 'WSNEnvironment' now calculates rewards based on the Age of Information (AoI). Minimizing AoI is the key to optimizing the system's state estimation. The agent's reward is proportional to how well it minimizes AoI, ensuring more strategic sensor selections.
 
 The 'WSNEnvironment' in this project offers a comprehensive and flexible platform for experimenting with intelligent scheduling strategies, allowing you to explore and develop state-of-the-art reinforcement learning algorithms for sensor network optimization.
-
-## How to Use
-- Clone this repository to your local machine.
-- Explore the 'WSNEnvironment' class and its methods to understand the simulation environment.
-- Stay tuned for further instructions on utilizing this environment and conducting experiments, as we continue to refine and enhance this project.
-
 
 ![WSNEnvironment](https://github.com/fareskhlifi/Intelligent-Scheduling-using-Reinforcement-learning-and-Deep-Q-Networks/blob/main/WSN.png?raw=true)
