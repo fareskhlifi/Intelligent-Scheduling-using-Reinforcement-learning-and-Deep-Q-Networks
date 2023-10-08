@@ -34,3 +34,23 @@ The heart of 'WSNEnvironment' lies in how it simulates a dynamic sensor network 
 The 'WSNEnvironment' in this project offers a comprehensive and flexible platform for experimenting with intelligent scheduling strategies, allowing you to explore and develop state-of-the-art reinforcement learning algorithms for sensor network optimization.
 
 ![WSNEnvironment](https://github.com/fareskhlifi/Intelligent-Scheduling-using-Reinforcement-learning-and-Deep-Q-Networks/blob/main/WSN.png?raw=true)
+
+## Implemented Algorithms
+   - This project implements five different algorithms to optimize sensor energy usage and improve system state estimation within a WSN environment:
+     - **Round Robin Scheduler:** A scheduler that cycles through available actions systematically.
+     - **Random Scheduler:** A scheduler that selects actions randomly from the available action space.
+     - **Q-learning Model:** A traditional Q-learning approach for action selection and reward optimization.
+     - **Deep Q-Network Model:** An extension of Q-learning using deep neural networks for more complex decision-making.
+     - **Stable Baselines3 Model:** A reinforcement learning model leveraging Stable Baselines3 library for training and evaluation.
+
+   The primary focus of this project is on the Deep Q-Network Model, as it offers advanced capabilities for optimizing sensor energy and enhancing system state estimation. The other implemented algorithms serve as baselines for comparison.
+
+# Algorithms Comparison and Data Analytics
+
+For in-depth details on the implementation and performance of each algorithm, including comparisons and data analytics, please explore the Jupyter notebooks provided in this repository. The project includes extensive data analytics, including:
+
+- Average rewards comparison
+- Boxplots for rewards
+- Time latency analysis
+
+The attached thesis report provides additional insights and a comprehensive overview of the project.
