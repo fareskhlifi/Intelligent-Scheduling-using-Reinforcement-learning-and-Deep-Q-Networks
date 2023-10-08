@@ -45,7 +45,7 @@ The 'WSNEnvironment' in this project offers a comprehensive and flexible platfor
 
    The primary focus of this project is on the Deep Q-Network Model, as it offers advanced capabilities for optimizing sensor energy and enhancing system state estimation. The other implemented algorithms serve as baselines for comparison.
 
-# Algorithms Comparison and Data Analytics
+## Algorithms Comparison and Data Analytics
 
 For in-depth details on the implementation and performance of each algorithm, including comparisons and data analytics, please explore the Jupyter notebooks provided in this repository. The project includes extensive data analytics, including:
 
