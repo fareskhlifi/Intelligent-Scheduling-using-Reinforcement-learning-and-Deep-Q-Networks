@@ -38,13 +38,5 @@ The 'WSNEnvironment' in this project offers a comprehensive and flexible platfor
 - Explore the 'WSNEnvironment' class and its methods to understand the simulation environment.
 - Stay tuned for further instructions on utilizing this environment and conducting experiments, as we continue to refine and enhance this project.
 
-## Contributors
-- [Your Name]
 
-## License
-This project is open-source under [License Name]. Feel free to use and contribute.
-
-## Acknowledgments
-This work draws inspiration from [Citation for the source of the definitions used in the code, e.g., the "Reinforcement Learning: An Introduction" book].
-
-![Sample Image](sample_image.png) *[Optional: Provide a sample image or diagram related to your project.]*
+![WSNEnvironment](https://github.com/fareskhlifi/Intelligent-Scheduling-using-Reinforcement-learning-and-Deep-Q-Networks/blob/main/WSN.png?raw=true)
